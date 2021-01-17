@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "499310748895",
+    "firebase_url": "https://organizi-d9d7f.firebaseio.com",
+    "project_id": "organizi-d9d7f",
+    "storage_bucket": "organizi-d9d7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499310748895:android:04c8e65837c7ef040e756a",
+        "android_client_info": {
+          "package_name": "com.organizi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499310748895-21ll667fgo7do59ve743ia822tb9e65h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.organizi",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "499310748895-0s3gpp32u5cddmf7gatcrko73jfps1g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEYj0_w1XBxwPkFrhn8naC8utG7oDfPzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499310748895-0s3gpp32u5cddmf7gatcrko73jfps1g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
