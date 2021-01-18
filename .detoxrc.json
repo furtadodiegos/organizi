@@ -12,10 +12,10 @@
         },
         "ios.sim.release": {
             "type": "ios.simulator",
-            "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/organizi.app",
+            "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/organizi.app",
             "build": "xcodebuild -workspace ios/organizi.xcworkspace -scheme organizi -configuration Release -sdk iphonesimulator -derivedDataPath ios/build -arch x86_64",
             "device": {
-                "type": "iPhone 11 Pro"
+                "type": "iPhone 11"
             }
         }
     }

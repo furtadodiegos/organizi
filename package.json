@@ -12,7 +12,7 @@
         "detox:build": "detox build -c ios",
         "detox:build:release": "detox build -c ios.sim.release",
         "detox:test": "detox test -c ios",
-        "detox:test:release": "detox test -c ios.sim.release",
+        "detox:test:release": "detox test -c ios.sim.release --cleanup",
         "detox": "yarn detox:build && yarn detox:test"
     },
     "dependencies": {
