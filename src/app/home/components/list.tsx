@@ -9,7 +9,7 @@ const List = () => {
     return (
         <View>
             <Text style={styles.header} testID="header">
-                List of numbers
+                List of numbersXXX
             </Text>
 
             <View style={styles.container}>
