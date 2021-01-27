@@ -1,9 +1,12 @@
 import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet } from 'react-native';
-
-// import auth from '@react-native-firebase/auth';
+import codePush from 'react-native-code-push';
 
 import Navigation from './navigation';
+
+const codePushOptions = {
+    checkFrequency: codePush.CheckFrequency.ON_APP_START,
+};
 
 const App = () => {
     return (
@@ -23,4 +26,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default App;
+export default codePush(codePushOptions)(App);
