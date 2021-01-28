@@ -13,6 +13,6 @@ describe('Testing navigation', () => {
             </NavigationContainer>,
         );
 
-        await waitFor(() => getByText('List of numbers'));
+        await waitFor(() => getByText('List of numbersXXX'));
     });
 });

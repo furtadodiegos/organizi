@@ -63,4 +63,4 @@ buck-out/
 /ios/Pods/
 
 yarn.lock
-/__coverage__/
+__coverage__

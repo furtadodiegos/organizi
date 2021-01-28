@@ -21,7 +21,7 @@ describe('Testing Home List component', () => {
     test('page contains the header and 5 items', async () => {
         const { findByText, queryByTestId, getAllByText } = render(<List />);
 
-        const header = await findByText('List of numbers');
+        const header = await findByText('List of numbersXXX');
         const items = getAllByText(/Item number/);
         const firstItem = queryByTestId('item_1');
 
